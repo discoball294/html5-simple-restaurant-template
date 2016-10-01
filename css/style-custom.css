@@ -1,0 +1,125 @@
+.centered-and-cropped {
+    position: absolute;
+    clip: rect(0px,0px,10px,0px);
+
+}
+.repeat-bg{
+    background-image: url("../assets/img/bg.png");
+    border-image-repeat: repeat;
+    background-attachment: fixed;
+}
+.food-view {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner {
+    padding: 0px;
+
+    background-color: #FFFFFF;
+}
+.review{
+    margin-bottom: 80px;
+}
+.footer-black{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.left-about, .right-about{
+    padding: 40px;
+}
+.socmed-about{
+    margin: 5px;
+}
+.quotes{
+
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.socmed-link > a:hover,
+.socmed-link > a:visited,
+.socmed-link
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.gray-text{
+    color: grey;
+}
+.menu-content{
+    padding: 20px;
+}
+.location{
+    margin-bottom: 20px;
+}
+.bordered-input{
+    border-radius: 0px;
+    border: #000000 solid thick;
+}
+.btn-black{
+    background-color: #000000;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+.btn-white{
+    border: #000000 solid thick;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    color: #000000;
+}
+
+/* Custom Navbar */
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-new {
+    background-color: #000;
+    border-color: #000;
+    margin-bottom: 0px;
+}
+
+.navbar-new .navbar-brand,
+.navbar-new .navbar-brand:hover,
+.navbar-new .navbar-brand:focus {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navbar-new .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-new .navbar-nav > li > a:hover,
+.navbar-new .navbar-nav > li > a:focus {
+    background-color: #a9a9a9;
+}
+
+.navbar-new .navbar-nav > .active > a,
+.navbar-new .navbar-nav > .active > a:hover,
+.navbar-new .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #a9a9a9;
+}
+
+.navbar-new .navbar-text {
+    color: #FFF;
+}
+
+.navbar-new .navbar-toggle {
+    border-color: #d3d3d3;
+}
+
+.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:focus {
+    background-color: #d3d3d3;
+}
+
+.navbar-new .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
